@@ -15,42 +15,22 @@
     ]
   },
   "properties": [
-    "organization_name",
-    "address",
-    {"name": "address", "title": "directions", "directions": true },
-    {"name": "web_url", "title": "website", "url": true },
-    {"name": "contact_names", "title": "Contact Information" },
-    "contact_emails",
-    "phone_numbers",
-
-    {"name": "services_offered", "title": "Services" },
-    {"name": "youth_category", "title": "Type of Organization" },
-    {"name": "target_populations", "title": "Populations Served" },
-
-    {"name": "additional_notes", "title": "Information"}
+    "station",
+    "state"
   ],
   "list": [
-    "organization_name",
-    "address"
+    "station",
+    "state"
   ],
   "search": {
     "geosearch": true,
     "full_text": {
       "keys": [
-        "address",
-        "organization_name",
-        "community",
-        "youth_category",
-        "service_class_level_2",
-        "additional_notes"]
+        "station"]
     }
   },
   "facets": {
-    "target_populations": {
-      "title": "Populations Served",
-      "type": "list"
-    },
-    "youth_category": {
+    "state": {
       "title": "Category",
       "type": "single"
     }
