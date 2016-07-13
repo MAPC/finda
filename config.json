@@ -62,5 +62,5 @@
     "hostname": "auto",
     "detail_enabled": true
   },
-  "geojson_source": "data.geojson"
+  "geojson_source": "https://wilburnforce.carto.com/api/v2/sql?q=select%20*%20from%20public.gisdata_trains_node"
 }
